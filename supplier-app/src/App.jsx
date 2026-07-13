@@ -1,5 +1,4 @@
-// import { useState } from 'react'
-import './App.css'
+import DisplayMainTable from './DisplayMainTable'
 
 function App() {
   const openModel = () => {
@@ -12,16 +11,15 @@ function App() {
         <div>
           <h1>Landing Page</h1>
         </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={openModel}
-        >
+        <button type="button" className="counter" onClick={openModel}>
           Add Payment
         </button>
       </section>
+      <section id="mainTable">
+        <DisplayMainTable />
+      </section>
     </>
-  )
+  );
 }
 
 export default App
