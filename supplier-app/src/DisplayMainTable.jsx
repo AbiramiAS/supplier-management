@@ -1,5 +1,4 @@
 import DataTable from "react-data-table-component";
-import TableData from "./TableData.json"
 
 const columnValues = [
   { name: "S.No", selector: (row) => row.sno, sortable: true },
@@ -12,6 +11,6 @@ const columnValues = [
   { name: "Cost Type", selector: (row) => row.costType },
 ];
 
-export default function DisplayMainTable() {
-  return <DataTable columns={columnValues} data={TableData} />;
+export default function DisplayMainTable(dataList) {
+  return <DataTable columns={columnValues} data={dataList.dataList} />;
 }

@@ -1,17 +1,13 @@
-import DisplayMainTable from './DisplayMainTable'
-import AddPayments from "./AddPayments"
+import LandingPage from "./LandingPage.jsx"
 
 function App() {
   return (
     <>
       <section id="header">
         <div>
-          <h1>Landing Page</h1>
-          <AddPayments />
+          <h3>Landing Page</h3>
+          <LandingPage/>
         </div>
-      </section>
-      <section id="mainTable">
-        <DisplayMainTable />
       </section>
     </>
   );

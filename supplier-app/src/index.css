@@ -101,3 +101,7 @@ p {
   border-radius: 4px;
   color: var(--text-h);
 }
+
+.display-table {
+  padding: 5px;;
+}
