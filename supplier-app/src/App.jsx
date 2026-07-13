@@ -1,19 +1,14 @@
 import DisplayMainTable from './DisplayMainTable'
+import AddPayments from "./AddPayments"
 
 function App() {
-  const openModel = () => {
-    console.log("Supplier list fetching");
-  }
-
   return (
     <>
       <section id="header">
         <div>
           <h1>Landing Page</h1>
+          <AddPayments />
         </div>
-        <button type="button" className="counter" onClick={openModel}>
-          Add Payment
-        </button>
       </section>
       <section id="mainTable">
         <DisplayMainTable />

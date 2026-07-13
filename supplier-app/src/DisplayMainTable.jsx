@@ -1,4 +1,5 @@
 import DataTable from "react-data-table-component";
+import TableData from "./TableData.json"
 
 const columnValues = [
   { name: "S.No", selector: (row) => row.sno, sortable: true },
@@ -11,16 +12,6 @@ const columnValues = [
   { name: "Cost Type", selector: (row) => row.costType },
 ];
 
-const dummyData = [
-  {
-    sno: 1,
-    admin: "Admin1",
-    auditor: "Auditor1",
-    paymentID: 10001,
-    payments: 13000
-  },
-  { sno: 2, admin: "Admin2", auditor: "Auditor2", paymentID: 10002, payments: 15000 },
-];
 export default function DisplayMainTable() {
-  return <DataTable columns={columnValues} data={dummyData} />;
+  return <DataTable columns={columnValues} data={TableData} />;
 }

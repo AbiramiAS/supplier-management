@@ -1,0 +1,10 @@
+[
+  {
+    "sno": 1,
+    "admin": "admin1",
+    "auditor": "auditor1",
+    "paymentID": 10001,
+    "payments": 13000
+  },
+  { "sno": 2, "admin": "admin2", "auditor": "auditor2", "paymentID": 10002, "payments": 15000 }
+]
