@@ -1,0 +1,53 @@
+[
+  {
+    "supplier_id": 1001,
+    "supplierName": "Aarav",
+    "main_balance" : 10000
+  },
+  {
+    "supplier_id": 1002,
+    "supplierName": "Diya",
+    "main_balance" : 30000
+  },
+  {
+    "supplier_id": 1003,
+    "supplierName": "Viyan",
+    "main_balance": 1000
+  },
+  {
+    "supplier_id": 1004,
+    "supplierName": "Ananya",
+    "main_balance": 16000
+  },
+  {
+    "supplier_id": 1005,
+    "supplierName": "Aditya",
+    "main_balance": 1500
+  },
+  {
+    "supplier_id": 1006,
+    "supplierName": "Meera",
+    "main_balance": 10000
+  },
+  {
+    "supplier_id": 1007,
+    "supplierName": "Rohan",
+    "main_balance": 10000
+  },
+  {
+    "supplier_id": 1008,
+    "supplierName": "Isha",
+    "main_balance": 17000
+  },
+  {
+    "supplier_id": 1009,
+    "supplierName": "Karke",
+    "main_balance": 10000
+  },
+  {
+    "supplier_id": 1010,
+    "supplierName": "Priya",
+    "main_balance": 11000
+  }
+  ]
+
